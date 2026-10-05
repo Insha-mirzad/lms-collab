@@ -6,7 +6,7 @@ BOOKS = [
     },
     {"title": "Clean Code", "author": "Robert C. Martin"},
 ]
-
+"""Comment describing books list"""
 
 def search_books(keyword, books=BOOKS):
     """Return books whose title or author contains the keyword (case-insensitive)."""
